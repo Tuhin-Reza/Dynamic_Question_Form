@@ -1,0 +1,14 @@
+CREATE TABLE certquestions (
+    qid SERIAL PRIMARY KEY,
+    qtext TEXT NOT NULL,
+    op_a TEXT NOT NULL,
+    op_b TEXT NOT NULL,
+    op_c TEXT NOT NULL,
+    op_d TEXT NOT NULL,
+    ans_op TEXT NOT NULL,
+    point INTEGER NOT NULL,
+    tot_point INTEGER NOT NULL,
+    cid TEXT NOT NULL,
+    iid TEXT NOT NULL,
+    qzid int NOT NULL
+);
